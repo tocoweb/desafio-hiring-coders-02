@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f63483e24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>AirBnB - Fake</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg" />
+    <script src="scripts.js"></script>
+</head>
+
+<body onload="catalog()">
+    <div class="container">
+        <div class="row zero-margin">
+            <div id="navbar">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.svg" alt="Logo"></a>
+                </div>
+                <div class="menu">
+                    <ul class="menu-nav">
+                        <li class="menu-item ">
+                            <button class="dropbtn" onclick="myFunction()">
+                                <img src="img/world.svg" alt="Icone World" width="18"> <i class="fas fa-angle-down"></i>
+                            </button>
+
+                            <div class="dropdown-content" id="myDropdown">
+                                <a href="" class="dropdown-item"><img src="img/world.svg" alt="Icone World" width="18">
+                                    Português BR</a>
+                                <a href="" class="dropdown-item">R$ BRL</a>
+                            </div>
+
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link">Hospede sua acomodação</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link">Hospede uma experiência</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link">Ajuda</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link">Entrar</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="" class="menu-link cadastra">Cadastre-se</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <form action="">
+                <div class="search">
+                    <div class="menu-search">
+                        <ul class="menu-nav-search">
+                            <li class="menu-item-search">
+                                <a href="" class="menu-link-search">Lugares para ficar</a>
+                                <span class="active"></span>
+                            </li>
+                            <li class="menu-item-search">
+                                <a href="" class="menu-link-search">Estadias longas</a>
+                            </li>
+                            <li class="menu-item-search">
+                                <a href="" class="menu-link-search">Experiências</a>
+                            </li>
+                            <li class="menu-item-search">
+                                <a href="" class="menu-link-search">Experiências Online <button>NOVO</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="field-search">
+                        <div class="fields">
+                            <span>Localização</span>
+                            <div>
+                                <input type="text" placeholder="Para onde você vai?">
+                            </div>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="fields">
+                            <span>Check-in/checkout</span>
+                            <div>
+                                <input type="text" placeholder="Insira as datas">
+                            </div>
+                        </div>
+                        <span class="bar"></span>
+                        <div class="fields">
+                            <span>Hóspedes</span>
+                            <div>
+                                <input type="text" placeholder="Insira o número de hóspedes">
+                            </div>
+                        </div>
+                        <button><i class="fas fa-search"></i> Buscar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <h1 class="destaques-h1">Podemos estar afastados, mas <br> superar isso juntos.</h1>
+            <div class="destaques">
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="section-title">Fique por dentro</h3>
+            <div class="fique-por-dentro">
+                <div class="block">
+                    <div class="block-title">
+                        <p>Para hóspedes</p>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Atualizações sobre viagens</p>
+                            <p class="topics-content">O que você deve fazer</p>
+                        </a>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Opções de cancelamento</p>
+                            <p class="topics-content">Saiba o que está coberto</p>
+                        </a>
+                    </div>
+                    <div class="topics-border">
+                        <a href="">
+                            <p class="topics-title">Central de ajuda</p>
+                            <p class="topics-content">Ajuda</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        <p>Para anfitriões</p>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Mensagem de Brian Chesky</p>
+                            <p class="topics-content">Mensagem do nosso SEO</p>
+                        </a>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Recursos para hospedagens</p>
+                            <p class="topics-content">Como mitigar os efeitos da COVID-19</p>
+                        </a>
+                    </div>
+                    <div class="topics-border">
+                        <a href="">
+                            <p class="topics-title">Ofereça acomodações na linha de frente</p>
+                            <p class="topics-content">Saiba como ajudar</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        <p>Para pessoas combatendo a COVID-19</p>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Acomodações na linha de frente</p>
+                            <p class="topics-content">Saiba mais sobre o programa</p>
+                        </a>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Cadastre-se</p>
+                            <p class="topics-content">Consulte as opções de acomodação</p>
+                        </a>
+                    </div>
+                    <div class="topics-border">
+                        <a href="">
+                            <p class="topics-title">Faça uma doação</p>
+                            <p class="topics-content">Apoie acomodações sem fins lucrativos</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-title">
+                        <p>Mais</p>
+                    </div>
+                    <div class="topics">
+                        <a href="">
+                            <p class="topics-title">Sala de imprensa do Airbnb</p>
+                            <p class="topics-content">Ultímas informações</p>
+                        </a>
+                    </div>
+                    <div class="topics-border">
+                        <a href="">
+                            <p class="topics-title">Organização Mundial da Saúde</p>
+                            <p class="topics-content">Recomendações e atualizações</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="footer">
+                <div class="footer-left">
+                    <div class="footer-left-a">© 2020 Airbnb, Inc. All rights reserved</div>
+                    <div class="footer-left-b">
+                        <span>·</span><a href="">Privacidade</a>
+                        <span>·</span><a href="">Termos</a>
+                        <span>·</span><a href="">Mapa do site</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right-a">
+                        <a href=""><img src="img/world.svg" alt="Icone World" width="18"> Português BR</a>
+                        <a href="">R$ BRL</a>
+                        <a href="">Mapa do site</a>
+                    </div>
+                    <div class="footer-right-b">
+                        <a href=""><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href=""><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
